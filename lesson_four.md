@@ -221,7 +221,7 @@ total 796
 duckluckbreakout@ubuntuserver:~$ sudo vim /etc/ssh/sshd_config
 [sudo] password for duckluckbreakout: 
 ```
-[![imageup.ru](https://imageup.ru/img176/3636389/screenshot-from-2020-07-30-05-05-45.png)](https://imageup.ru/img176/3636389/screenshot-from-2020-07-30-05-05-45.png.html)
+
 ### Выполните рестарт службы `systemctl restart sshd (service sshd restart)`, верните аутентификацию по паролю, выполните `reload` службы `systemctl reload sshd (services sshd reload)`. 
 ```console
 duckluckbreakout@ubuntuserver:~$ systemctl restart sshd
@@ -234,7 +234,7 @@ Password:
 ```console
 duckluckbreakout@ubuntuserver:~$ sudo vim /etc/ssh/sshd_config
 ```
-[![imageup.ru](https://imageup.ru/img150/3636390/screenshot-from-2020-07-30-05-09-09.png)](https://imageup.ru/img150/3636390/screenshot-from-2020-07-30-05-09-09.png.html)
+
 ```console
 duckluckbreakout@ubuntuserver:~$ systemctl reload sshd
 ==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
@@ -266,7 +266,7 @@ fasf
 ```console
 duckluckbreakout@ubuntuserver:~$ mc
 ```
-[![imageup.ru](https://imageup.ru/img76/3636392/screenshot-from-2020-07-30-05-24-53.png)](https://imageup.ru/img76/3636392/screenshot-from-2020-07-30-05-24-53.png.html)
+
 ### Используя ps, найдите PID процесса, завершите процесс, передав ему сигнал 9.
 ```console
 duckluckbreakout@ubuntuserver:~$ ps -a
